@@ -15,8 +15,8 @@ __opencv3 in ubuntu:__
 __CMakeLists.txt:__  
 ```
 cmake_minimum_required(VERSION 2.8)
-project( Display )
 set(OpenCV_DIR "/usr/local/opencv2/share/OpenCV")
+project( Display )
 set(OpenCV_FOUND 1)
 find_package( OpenCV REQUIRED )
 add_executable( Display display.cpp )
