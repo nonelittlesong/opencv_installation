@@ -17,7 +17,7 @@ __CMakeLists.txt:__
 cmake_minimum_required(VERSION 2.8)
 set(OpenCV_DIR "/usr/local/opencv2/share/OpenCV")
 project( Display )
-set(OpenCV_FOUND 1)
+" set(OpenCV_FOUND 1)
 find_package( OpenCV REQUIRED )
 add_executable( Display display.cpp )
 target_link_libraries( Display ${OpenCV_LIBS} )
