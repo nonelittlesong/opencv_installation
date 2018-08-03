@@ -22,6 +22,8 @@ find_package( OpenCV REQUIRED )
 add_executable( Display display.cpp )
 target_link_libraries( Display ${OpenCV_LIBS} )
 ```
+__pkg-config:__  
+[https://blog.csdn.net/newchenxf/article/details/51750239](https://blog.csdn.net/newchenxf/article/details/51750239)  
 ## Notes
 __updatedb:__  
 用来创建或更新slocate命令所必需的数据库文件。updatedb命令的执行过程较长，因为在执行时它会遍历整个系统的目录树，并将所有的文件信息写入slocate数据库文件中。  
