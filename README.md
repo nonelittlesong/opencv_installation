@@ -1,4 +1,4 @@
-## Websites
+## 1. References
 [github](https://github.com/opencv)  
 [opencv.org](https://opencv.org/)  
 ## Install
@@ -24,14 +24,14 @@ target_link_libraries( Display ${OpenCV_LIBS} )
 ```
 __pkg-config:__  
 [https://blog.csdn.net/newchenxf/article/details/51750239](https://blog.csdn.net/newchenxf/article/details/51750239)  
-## Notes
+## 2. Notes
 [opencv doc](https://www.docs.opencv.org/2.4/)  
-### putText
+#### putText
 Draws a text String  
 ```c++
 void putText(Mat& img, const string& text, Point org, int fontFace, double fontScale, Scalar color, int thickness = 1, int lineType = 8, bool bottomLeftOrigin = false)
 ```
-### mask
+#### mask
 ```c++
 #include<opencv2/highgui/highgui.hpp>
 #include<opencv2/imgproc/imgproc.hpp>
@@ -64,4 +64,4 @@ int main(int argc, char** argv)
 	return 0;
 }
 ```
-## Problems
+## 3. Problems
