@@ -31,3 +31,4 @@ __pkg-config:__
 [opencv doc](https://www.docs.opencv.org/2.4/)  
 ## 3. Problems
 ### warning: CPACK_PACKAGE_VERSION does not match version provided by version.hpp header!
+无视他  
