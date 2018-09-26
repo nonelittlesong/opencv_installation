@@ -8,4 +8,4 @@
   arguments "-DANDROID_STL=gnustl_shared"  
 }  
 
-原因参考[在使用android studio编译opencv的静态库时，无法引用stl库](https://github.com/nonelittlesong/study-opencv/wiki/opencv-in-android）  
+原因参考[在使用android studio编译opencv的静态库时，无法引用stl库](https://github.com/nonelittlesong/study-opencv/wiki/opencv-in-android)
