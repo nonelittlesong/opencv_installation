@@ -2,8 +2,7 @@
 ## Troubleshootings
 ### undefined cv::putText
 直接配置build.gradle  
->
-cmake {  
+>cmake {  
   cppFlags "-std=c++11 -frtti -fexceptions -fopenmp"  
   abiFilters 'armeabi-v7a'  
   arguments "-DANDROID_STL=gnustl_shared"  
