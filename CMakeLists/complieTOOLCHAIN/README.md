@@ -14,9 +14,9 @@ Package installed to /tmp/ndk-hm
 解压  
 
 ## 二、 编译so
-1. 编写CmakeLists.txt  
+1. 编写CmakeLists.txt
 2. 编译
-```
-cmake ..
-make
-```
+   ```
+   cmake ..
+   make
+   ```
