@@ -11,9 +11,9 @@
 --platform=android-15
 ```
 >* --arch默认为arm  
-* 没有配置--install-dir,会生成压缩包：Package installed to /tmp/ndk-hm  
-  需要人工解压  
-* --install-dir不能是已存在的文件夹
+>* 没有配置--install-dir,会生成压缩包：Package installed to /tmp/ndk-hm  
+>  需要人工解压  
+>* --install-dir不能是已存在的文件夹
 
 
 ## 二、 编译so
