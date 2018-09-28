@@ -10,6 +10,8 @@
 --arch=arm \
 --platform=android-15
 ```
+--arch默认为arm
+
 Package installed to /tmp/ndk-hm  
 解压  
 
