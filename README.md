@@ -1,4 +1,4 @@
-**wiki**  
+*wiki*  
 * [opencv in android](https://github.com/nonelittlesong/study-opencv/wiki/opencv-in-android)
 
 ## 1. References
