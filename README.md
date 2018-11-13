@@ -52,6 +52,15 @@ __pkg-config:__
 [https://blog.csdn.net/newchenxf/article/details/51750239](https://blog.csdn.net/newchenxf/article/details/51750239)  
 ## 2. Notes
 [opencv doc](https://www.docs.opencv.org/2.4/)  
+### 构造和赋值
+```
+Mat A, C;                                 // creates just the header parts
+A = imread(argv[1], CV_LOAD_IMAGE_COLOR); // here we'll know the method used (allocate matrix)
+Mat B(A);                                 // Use the copy constructor
+C = A;                                    // Assignment operator
+```
+上述对象，都指向同一个矩阵。
+
 ## 3. Problems
 ### warning: CPACK_PACKAGE_VERSION does not match version provided by version.hpp header!
 无视他  
