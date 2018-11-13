@@ -59,7 +59,8 @@ A = imread(argv[1], CV_LOAD_IMAGE_COLOR); // here we'll know the method used (al
 Mat B(A);                                 // Use the copy constructor
 C = A;                                    // Assignment operator
 ```
-上述对象，都指向同一个矩阵。
+上述对象，都指向同一个矩阵。  
+Mat(int _rows, int _cols, int _type, void* _data, size_t _step=AUTO_STEP);  
 
 ## 3. Problems
 ### warning: CPACK_PACKAGE_VERSION does not match version provided by version.hpp header!
