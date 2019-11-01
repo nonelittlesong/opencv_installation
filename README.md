@@ -6,7 +6,8 @@
 - [opencv.org](https://opencv.org/)  
 - [Ubuntu - OpenCV 源码安装与测试](https://www.aiuai.cn/aifarm792.html) by aiuai.cn  
 
-## Install
+## [Install](https://docs.opencv.org/2.4.13.6/doc/tutorials/introduction/linux_install/linux_install.html?highlight=install)
+
 ```
 # 依赖
 $ sudo apt-get update
