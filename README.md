@@ -106,6 +106,6 @@ C = A;                                    // Assignment operator
 上述对象，都指向同一个矩阵。  
 Mat(int _rows, int _cols, int _type, void* _data, size_t _step=AUTO_STEP);  
 
-## 3. Problems
+## Troubleshooting
 ### warning: CPACK_PACKAGE_VERSION does not match version provided by version.hpp header!
 无视他  
