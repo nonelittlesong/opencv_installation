@@ -7,18 +7,50 @@
 - [Ubuntu - OpenCV 源码安装与测试](https://www.aiuai.cn/aifarm792.html) by aiuai.cn  
 
 ## [Install](https://docs.opencv.org/2.4.13.6/doc/tutorials/introduction/linux_install/linux_install.html?highlight=install)
-
+官方推荐依赖：  
 ```
-# 依赖
-$ sudo apt-get update
-$ sudo apt-get install -y build-essential
-$ sudo apt-get install -y cmake
-$ sudo apt-get install -y libgtk2.0-dev
-$ sudo apt-get install -y pkg-config
-$ sudo apt-get install -y python-numpy python-dev
-$ sudo apt-get install -y libavcodec-dev libavformat-dev libswscale-dev
-$ sudo apt-get install -y libjpeg-dev libpng12-dev libtiff5-dev libjasper-dev
-$ sudo apt-get -qq install libopencv-dev build-essential checkinstall cmake pkg-config yasm libjpeg-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev libxine2 libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev python-dev python-numpy libtbb-dev libqt4-dev libgtk2.0-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils
+[compiler] sudo apt-get install build-essential
+[required] sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+[optional] sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+```
+OPENGL 支持依赖库：  
+```
+sudo apt-get install freeglut3-dev \
+                     mesa-common-dev \
+                     libgtkglext1 \
+                     libgtkglext1-dev
+```
+视频解码支持依赖库：  
+```
+sudo apt-get install checkinstall \
+                     yasm \
+                     libgstreamer0.10-dev \
+                     libgstreamer-plugins-base0.10-dev \
+                     libv4l-dev \
+                     libtbb-dev \
+                     libqt4-dev \
+                     libgtk2.0-dev \
+                     libmp3lame-dev \
+                     libtheora-dev \
+                     libvorbis-dev \
+                     libxvidcore-dev \
+                     x264 \
+                     v4l-utils
+```
+其它可能依赖项：  
+```
+sudo apt-get install libgphoto2-dev \
+                     libavresample-dev \ 
+                     liblapacke-dev \
+                     gtk+-3.0 \
+                     libgtk-3-dev \ 
+                     libeigen3-dev \ 
+                     tesseract-ocr \
+                     liblept5 \
+                     leptonica-progs \
+                     libleptonica-dev
+```
+
 # 下载
 $ wget http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.13/opencv-2.4.13.zip
 $ unzip opencv-2.4.13.zip
