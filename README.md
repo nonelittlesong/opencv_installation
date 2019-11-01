@@ -74,7 +74,7 @@ $ sudo make install
 - [reference1](https://github.com/L706077/Ubuntu16.04-Install-Opencv2.4.13)  
 - https://www.aiuai.cn/aifarm792.html  
   
-__opencv3 in ubuntu:__  
+#### opencv3 in ubuntu
 <ol>
   <li>配置/etc/ld.so.conf.d/opencv.conf，再ldconfig</li>
   <li>配置bash.bashrc（.bashrc或.zshrc）</li>
@@ -82,7 +82,7 @@ __opencv3 in ubuntu:__
   <li>CMakeLists.txt</li>
 </ol>
 
-__CMakeLists.txt:__  
+#### CMakeLists.txt
 ```c++
 cmake_minimum_required(VERSION 2.8)
 set(OpenCV_DIR "/usr/local/opencv2/share/OpenCV")
@@ -94,7 +94,7 @@ target_link_libraries( Display ${OpenCV_LIBS} )
 ```
 __pkg-config:__  
 [https://blog.csdn.net/newchenxf/article/details/51750239](https://blog.csdn.net/newchenxf/article/details/51750239)  
-## 2. Notes
+## Notes
 [opencv doc](https://www.docs.opencv.org/2.4/)  
 ### 构造和赋值
 ```
