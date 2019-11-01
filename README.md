@@ -50,20 +50,29 @@ sudo apt-get install libgphoto2-dev \
                      leptonica-progs \
                      libleptonica-dev
 ```
-
-# 下载
+下载：  
+```
 $ wget http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.13/opencv-2.4.13.zip
 $ unzip opencv-2.4.13.zip
 $ cd opencv-2.4.13
 $ mkdir release
 $ cd release
-# 编译
-$ cmake -G "Unix Makefiles" -DCMAKE_CXX_COMPILER=/usr/bin/g++ CMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=/usr/local -DWITH_TBB=ON -DBUILD_NEW_PYTHON_SUPPORT=ON -DWITH_V4L=ON -DINSTALL_C_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DBUILD_EXAMPLES=ON -DWITH_QT=ON -DWITH_OPENGL=ON -DBUILD_FAT_JAVA_LIB=ON -DINSTALL_TO_MANGLED_PATHS=ON -DINSTALL_CREATE_DISTRIB=ON -DINSTALL_TESTS=ON -DENABLE_FAST_MATH=ON -DWITH_IMAGEIO=ON -DBUILD_SHARED_LIBS=OFF -DWITH_GSTREAMER=ON ..
-$ make all -j2 # 2 cores
+```
+编译：  
+```
+$ cmake -D CMAKE_BUILD_TYPE=RELEASE \
+        -D CMAKE_INSTALL_PREFIX=/usr/local/opencv34 ..
+#       -D WITH_TBB=ON 
+#       -D BUILD_NEW_PYTHON_SUPPORT=ON \
+#       -D WITH_V4L=ON \
+#       -D WITH_QT=ON \
+#       -D WITH_OPENGL=ON
+$ make -j4
 $ sudo make install
 ```
-
-[reference1](https://github.com/L706077/Ubuntu16.04-Install-Opencv2.4.13)  
+参考：  
+- [reference1](https://github.com/L706077/Ubuntu16.04-Install-Opencv2.4.13)  
+- https://www.aiuai.cn/aifarm792.html  
   
 __opencv3 in ubuntu:__  
 <ol>
