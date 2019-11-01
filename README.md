@@ -1,9 +1,11 @@
 *wiki*  
 * [opencv in android](https://github.com/nonelittlesong/study-opencv/wiki/opencv-in-android)
 
-## 1. References
-[github](https://github.com/opencv)  
-[opencv.org](https://opencv.org/)  
+## References
+- [github](https://github.com/opencv)  
+- [opencv.org](https://opencv.org/)  
+- [Ubuntu - OpenCV 源码安装与测试](https://www.aiuai.cn/aifarm792.html) by aiuai.cn  
+
 ## Install
 ```
 # 依赖
